@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">NewsApp</string>
+    <string name="label_articles">Articles</string>
+    <string name="label_user_profile">Profile</string>
 </resources>

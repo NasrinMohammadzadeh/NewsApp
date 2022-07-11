@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.BottomNavigationViewActivated" parent="Widget.BottomNavigationView">
+        <item name="android:textColor">@color/purple_200</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/iran_yekan_web_regualr</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Widget.BottomNavigationViewInactivated" parent="Widget.BottomNavigationView">
+        <item name="android:textColor">#999999</item>
+    </style>
+</resources>

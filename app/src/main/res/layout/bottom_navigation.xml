@@ -1,0 +1,15 @@
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.BottomNavigationViewActivated"
+    android:id="@+id/bottom_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:layout_gravity="bottom"
+    android:background="@color/defaultBackground"
+    android:layoutDirection="rtl"
+    app:itemIconSize="20dp"
+    app:labelVisibilityMode="labeled"
+    app:menu="@menu/menu_bottom_nav"
+    app:itemTextAppearanceActive="@style/Widget.BottomNavigationViewActivated"
+    app:itemTextAppearanceInactive="@style/Widget.BottomNavigationViewInactivated"/>
