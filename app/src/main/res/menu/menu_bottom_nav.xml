@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/navigation_articleListFragment"
+        android:id="@+id/graph_home"
         android:icon="@drawable/ic_article"
-        android:title="@string/label_articles" />
+        android:title="@string/label_articles"
+        android:enabled="true"
+        app:showAsAction="ifRoom" />
 
     <item
-        android:id="@+id/navigation_userProfileFragment"
+        android:id="@+id/graph_about_me"
         android:icon="@drawable/ic_user_profile"
-        android:title="@string/label_user_profile" />
+        android:title="@string/label_user_profile"
+        android:enabled="true"
+        app:showAsAction="ifRoom" />
 
 </menu>
