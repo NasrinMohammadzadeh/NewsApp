@@ -11,14 +11,6 @@ open class BaseActivity : AppCompatActivity() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    disableDarkMode()
     window.decorView.layoutDirection = View.LAYOUT_DIRECTION_LTR
-  }
-
-  private fun disableDarkMode() {
-    try {
-      AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-      } catch (ignored: Exception) {
-    }
   }
 }

@@ -8,7 +8,9 @@ import com.example.newsapp.util.ThemeUtils
 import com.example.newsapp.util.base.BottomNavigationActivity
 import com.example.newsapp.util.showLongToast
 import com.example.newsapp.util.showShortToast
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : BottomNavigationActivity() {
 
     private val viewModel by viewModels<MainViewModel>()

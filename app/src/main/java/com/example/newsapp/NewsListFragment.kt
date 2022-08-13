@@ -4,7 +4,9 @@ import android.os.Bundle
 import android.view.View
 import com.example.newsapp.databinding.FragmentNewsListBinding
 import com.example.newsapp.util.base.BaseFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class NewsListFragment : BaseFragment<FragmentNewsListBinding>() {
     override val layoutId: Int
         get() = R.layout.fragment_news_list
