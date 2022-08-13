@@ -3,13 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/bg_background_ripple.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable-v24/bg_primary_medium_radius_ripple.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable-v24/ic_sun.xml" value="0.1795" />
         <entry key="app/src/main/res/drawable-v24/ic_user_profile.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bg_background_ripple.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/bg_primary_medium_radius_ripple.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/bg_surface_oval.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_arrow_right.xml" value="0.1795" />
         <entry key="app/src/main/res/drawable/ic_article.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_general_error.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/ic_moon.xml" value="0.1795" />
         <entry key="app/src/main/res/drawable/ic_user_profile.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/bottom_navigation.xml" value="0.19270833333333334" />
+        <entry key="app/src/main/res/layout/fragment_about_me.xml" value="0.13240740740740742" />
         <entry key="app/src/main/res/layout/fragment_news_list.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/fragment_user_profile.xml" value="0.19270833333333334" />
+        <entry key="app/src/main/res/layout/item_about_me_social_network.xml" value="0.35625" />
         <entry key="app/src/main/res/menu/menu_bottom_nav.xml" value="0.19375" />
       </map>
     </option>

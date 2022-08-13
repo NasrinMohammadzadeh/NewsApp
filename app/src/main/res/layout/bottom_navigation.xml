@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="56dp"
     android:layout_gravity="bottom"
-    android:background="@color/defaultBackground"
+    android:background="?colorGreen"
     android:layoutDirection="rtl"
     app:itemIconSize="20dp"
     app:labelVisibilityMode="labeled"

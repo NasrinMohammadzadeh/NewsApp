@@ -6,6 +6,7 @@ import com.example.newsapp.BuildConfig
 import com.example.newsapp.db.AppDb
 import com.example.newsapp.network.DefaultIfNullFactory
 import com.example.newsapp.network.HeaderInterceptor
+import com.example.newsapp.preferences.PreferencesDataStore
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import dagger.Module
@@ -98,4 +99,10 @@ class AppModule {
             .baseUrl(BuildConfig.API_URL)
             .addConverterFactory(MoshiConverterFactory.create(moshi))
     }
+
+
+    @Provides
+    fun providePreferencesDataStore(
+        @ApplicationContext context: Context
+    ): PreferencesDataStore = PreferencesDataStore(context)
 }

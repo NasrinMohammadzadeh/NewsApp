@@ -1,16 +1,6 @@
 package com.example.newsapp.util
 
-import androidx.navigation.NavDirections
-
 interface MainHelper {
-
-    fun navigate(direction: NavDirections)
-
-//    fun clearStack(tag: MainNavigationTag = MainNavigationTag.Default)
-//
-//    fun goBack(tag: MainNavigationTag = MainNavigationTag.Default, number: Int = 1)
-//
-//    fun switchTab(tag: MainNavigationTag)
 
     fun showLongMessage(resourceId: Int)
 

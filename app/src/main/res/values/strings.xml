@@ -2,4 +2,15 @@
     <string name="app_name">NewsApp</string>
     <string name="label_articles">Articles</string>
     <string name="label_user_profile">Profile</string>
+
+    <string name="link_github">https://github.com/NasrinMohammadzadeh</string>
+    <string name="link_linkedin">https://www.linkedin.com/in/nasrin-mohammadzadeh</string>
+
+    <string name="label_full_name">Nasrin Mohammadzadeh</string>
+    <string name="label_github">Github</string>
+    <string name="label_linkedin">Linkedin</string>
+
+    <string name="error_general">A problem occurred!</string>
+
+    <string name="label_about_me">About Me</string>
 </resources>

@@ -7,6 +7,6 @@
 
     <fragment
         android:id="@+id/aboutMeFragment"
-        android:name="com.example.newsapp.AboutMeFragment"
+        android:name="com.example.newsapp.ui.aboutme.AboutMeFragment"
         android:label="AboutMeFragment" />
 </navigation>

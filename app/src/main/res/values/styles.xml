@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Widget.BottomNavigationViewActivated" parent="Widget.BottomNavigationView">
-        <item name="android:textColor">@color/purple_200</item>
+        <item name="android:textColor">?colorPrimary</item>
     </style>
 
     <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
@@ -11,5 +11,38 @@
 
     <style name="Widget.BottomNavigationViewInactivated" parent="Widget.BottomNavigationView">
         <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="TextPrimary">
+        <item name="android:textColor">?colorTextPrimary</item>
+    </style>
+
+    <style name="ToolbarItem.TextPrimary">
+        <item name="tint">?colorTextPrimary</item>
+    </style>
+
+    <style name="ToolbarItem">
+        <item name="android:layout_height">@dimen/toolbar_size</item>
+        <item name="android:layout_width">@dimen/toolbar_size</item>
+        <item name="android:padding">@dimen/spacing_4x</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="Button" >
+        <item name="android:textColor">?colorTextSecondary</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingTop">@dimen/spacing_3x</item>
+        <item name="android:paddingBottom">@dimen/spacing_3x</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Button.Primary">
+        <item name="android:background">@drawable/bg_primary_medium_radius_ripple</item>
     </style>
 </resources>
