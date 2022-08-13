@@ -4,23 +4,17 @@ import android.annotation.SuppressLint
 import android.os.Handler
 import android.os.Looper
 import android.view.View
-import androidx.activity.viewModels
 import androidx.fragment.app.FragmentManager
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
-import com.example.newsapp.MainViewModel
 import com.example.newsapp.R
 import com.example.newsapp.util.MainHelper
-import com.example.newsapp.util.ThemeUtils
-import com.example.newsapp.util.showLongToast
-import com.example.newsapp.util.showShortToast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 @SuppressLint("Registered")
 abstract class BottomNavigationActivity : BaseActivity(),MainHelper {
   private var doubleBackToExitPressedOnce = false
   lateinit var bottomNavigation: BottomNavigationView
-  private val viewModel by viewModels<MainViewModel>()
 
   val navController by lazy {
     (supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment).navController
@@ -67,32 +61,4 @@ abstract class BottomNavigationActivity : BaseActivity(),MainHelper {
     }
   }
 
-  override fun changeTheme() {
-    val isDarkTheme = viewModel.isDarkTheme()
-    viewModel.changeTheme(!isDarkTheme)
-    ThemeUtils.changeTheme(!isDarkTheme)
-  }
-
-  override fun showLongMessage(resourceId: Int) {
-    showLongToast(resourceId)
-  }
-
-  override fun showLongMessage(message: String) {
-    showLongToast(message)
-  }
-
-  override fun showShortMessage(resourceId: Int) {
-    showShortToast(resourceId)
-  }
-
-  override fun showShortMessage(message: String) {
-    showShortToast(message)
-  }
-
-  override fun showRemoteMessage(serverErrorMessage: String?, errorMessage: Int) {
-    if (serverErrorMessage == null) {
-      if (errorMessage != 0)
-        showLongMessage(errorMessage)
-    } else showLongMessage(serverErrorMessage)
-  }
 }

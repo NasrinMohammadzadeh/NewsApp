@@ -100,7 +100,7 @@ class AppModule {
             .addConverterFactory(MoshiConverterFactory.create(moshi))
     }
 
-
+    @Singleton
     @Provides
     fun providePreferencesDataStore(
         @ApplicationContext context: Context
